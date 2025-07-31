@@ -31,4 +31,6 @@ This project is made so all the elements are displayed correctly on popular scre
 
 This webpage is deployed to GitHub Pages
 
-- [Deployment Link:](https://aperez127.github.io/se_project_spots/)
+[Deployment Link](https://aperez127.github.io/se_project_spots/)
+
+[Watch the full video here](https://drive.google.com/file/d/1cMk4B3r3Fbqd4mZ12dbIuljOuVWcOdXD/view?usp=sharing)
