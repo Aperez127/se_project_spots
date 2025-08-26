@@ -13,7 +13,7 @@ const newPostBtn = document.querySelector(".profile__add-btn");
 const newPostModal = document.querySelector("#new-post-modal");
 const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 const newPostForm = newPostModal.querySelector(".modal__form");
-const newPostNameInput = newPostModal.querySelector("#caption-input");
+const newPostCaptionInput = newPostModal.querySelector("#caption-input");
 const newPostLinkInput = newPostModal.querySelector("#image-link-input");
 
 const profileNameEl = document.querySelector(".profile__name");
@@ -56,7 +56,7 @@ editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 
 function handleAddCardSubmit(evt) {
   evt.preventDefault();
-  console.log(newPostNameInput.value);
+  console.log(newPostCaptionInput.value);
   console.log(newPostLinkInput.value);
   closeModal(newPostModal);
 }
